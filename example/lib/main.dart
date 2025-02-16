@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shortcuts_new/flutter_shortcuts.dart';
+import 'package:flutter_shortcuts_new/flutter_shortcuts_new.dart';
 
 void main() {
   runApp(MyApp());
