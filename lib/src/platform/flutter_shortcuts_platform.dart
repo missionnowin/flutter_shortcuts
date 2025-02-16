@@ -8,8 +8,8 @@ for more details.
 
 */
 
-import 'package:flutter_shortcuts/src/method_call/flutter_shortcuts_method_call_handler.dart';
-import 'package:flutter_shortcuts/src/helper/helper.dart';
+import 'package:flutter_shortcuts_new/src/method_call/flutter_shortcuts_method_call_handler.dart';
+import 'package:flutter_shortcuts_new/src/helper/helper.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 abstract class FlutterShortcutsPlatform extends PlatformInterface {

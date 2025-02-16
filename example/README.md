@@ -1,6 +1,6 @@
-# flutter_shortcuts_example
+# flutter_shortcuts_new_example
 
-Demonstrates how to use the flutter_shortcuts plugin.
+Demonstrates how to use the flutter_shortcuts_new plugin.
 
 ## Getting Started
 

@@ -10,13 +10,13 @@ for more details.
 
 import 'dart:async';
 
-import 'package:flutter_shortcuts/src/platform/flutter_shortcuts_platform.dart';
-import 'package:flutter_shortcuts/src/helper/helper.dart';
+import 'package:flutter_shortcuts_new/src/platform/flutter_shortcuts_platform.dart';
+import 'package:flutter_shortcuts_new/src/helper/helper.dart';
 
-export 'package:flutter_shortcuts/src/helper/helper.dart';
+export 'package:flutter_shortcuts_new/src/helper/helper.dart';
 
 class FlutterShortcuts {
-  /// [initialize] initializes the flutter_shortcuts plugin.
+  /// [initialize] initializes the flutter_shortcuts_new plugin.
   Future<void> initialize({bool debug = true}) async {
     FlutterShortcutsPlatform.instance.initialize(debug);
   }

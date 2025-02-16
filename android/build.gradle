@@ -1,4 +1,4 @@
-group 'com.divyanshushekhar.flutter_shortcuts'
+group 'im.fluffychat.flutter_shortcuts_new'
 version '1.0'
 
 buildscript {
@@ -27,6 +27,8 @@ android {
     defaultConfig {
         minSdkVersion 16
     }
+
+    namespace 'im.fluffychat.flutter_shortcuts_new'
 }
 
 dependencies {

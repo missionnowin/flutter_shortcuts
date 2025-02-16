@@ -1,4 +1,4 @@
-package com.divyanshushekhar.flutter_shortcuts_example;
+package im.fluffychat.flutter_shortcuts_new_example;
 
 import io.flutter.embedding.android.FlutterActivity;
 

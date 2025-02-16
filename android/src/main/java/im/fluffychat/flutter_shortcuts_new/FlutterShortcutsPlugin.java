@@ -1,4 +1,4 @@
-package com.divyanshushekhar.flutter_shortcuts;
+package im.fluffychat.flutter_shortcuts_new;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,7 +12,7 @@ import io.flutter.plugin.common.BinaryMessenger;
 import io.flutter.plugin.common.MethodChannel;
 
 public class FlutterShortcutsPlugin implements FlutterPlugin, ActivityAware {
-  private static final String CHANNEL_ID = "com.divyanshushekhar.flutter_shortcuts";
+  private static final String CHANNEL_ID = "im.fluffychat.flutter_shortcuts_new";
   private static final String TAG = "[Flutter Shortcuts]";
 
   public static String getTAG() {
@@ -25,12 +25,6 @@ public class FlutterShortcutsPlugin implements FlutterPlugin, ActivityAware {
 
   private MethodChannel channel;
   private MethodCallImplementation handler;
-
-  @SuppressWarnings("deprecation")
-  public static void registerWith(io.flutter.plugin.common.PluginRegistry.Registrar registrar) {
-    final FlutterShortcutsPlugin plugin = new FlutterShortcutsPlugin();
-    plugin.setupChannel(registrar.messenger(), registrar.context(), registrar.activity());
-  }
 
   @Override
   public void onAttachedToEngine(@NonNull FlutterPluginBinding binding) {

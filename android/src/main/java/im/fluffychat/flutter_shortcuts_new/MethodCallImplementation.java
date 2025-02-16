@@ -1,4 +1,4 @@
-package com.divyanshushekhar.flutter_shortcuts;
+package im.fluffychat.flutter_shortcuts_new;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -34,7 +34,7 @@ import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 
 public class MethodCallImplementation implements MethodChannel.MethodCallHandler {
-    private static final String EXTRA_ACTION = "flutter_shortcuts";
+    private static final String EXTRA_ACTION = "flutter_shortcuts_new";
     private static final String TAG = FlutterShortcutsPlugin.getTAG();
 
     private final Context context;
@@ -117,7 +117,7 @@ public class MethodCallImplementation implements MethodChannel.MethodCallHandler
     private void getLaunchAction(MethodChannel.Result result) {
         if (activity == null) {
             result.error(
-                    "flutter_shortcuts_no_activity",
+                    "flutter_shortcuts_new_no_activity",
                     "There is no activity available when launching action",
                     null);
             return;

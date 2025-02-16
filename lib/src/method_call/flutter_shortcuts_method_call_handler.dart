@@ -9,13 +9,13 @@ for more details.
 */
 
 import 'package:flutter/services.dart';
-import 'package:flutter_shortcuts/src/platform/flutter_shortcuts_platform.dart';
-import 'package:flutter_shortcuts/src/helper/helper.dart';
+import 'package:flutter_shortcuts_new/src/platform/flutter_shortcuts_platform.dart';
+import 'package:flutter_shortcuts_new/src/helper/helper.dart';
 import 'package:flutter/foundation.dart';
 
 class FlutterShortcutsMethodCallHandler extends FlutterShortcutsPlatform {
   final MethodChannel _channel =
-      MethodChannel('com.divyanshushekhar.flutter_shortcuts');
+      MethodChannel('im.fluffychat.flutter_shortcuts_new');
 
   MethodChannel get channel => _channel;
 

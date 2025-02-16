@@ -1,13 +1,9 @@
-# Flutter Shortcuts
-
-<img src="https://i.imgur.com/462Y6wf.gif" title="Flutter_Shortcuts" />
-
-![GitHub](https://img.shields.io/github/license/DevsOnFlutter/flutter_shortcuts?style=plastic) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/DevsOnFlutter/flutter_shortcuts?style=plastic) ![GitHub top language](https://img.shields.io/github/languages/top/DevsOnFlutter/flutter_shortcuts?style=plastic) ![GitHub language count](https://img.shields.io/github/languages/count/DevsOnFlutter/flutter_shortcuts?style=plastic) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/DevsOnFlutter/flutter_shortcuts?style=plastic) ![GitHub issues](https://img.shields.io/github/issues/DevsOnFlutter/flutter_shortcuts?style=plastic) ![GitHub Repo stars](https://img.shields.io/github/stars/DevsOnFlutter/flutter_shortcuts?style=social) ![GitHub forks](https://img.shields.io/github/forks/DevsOnFlutter/flutter_shortcuts?style=social)
+# Flutter Shortcuts New
 
 ## Compatibility
 
 ✅ &nbsp; Android </br>
-❌ &nbsp; iOS (active issue: [iOS support for quick actions](https://github.com/DevsOnFlutter/flutter_shortcuts/issues/1))
+❌ &nbsp; iOS (active issue: [iOS support for quick actions](https://github.com/DevsOnFlutter/flutter_shortcuts_new/issues/1))
 
 ## Show some :heart: and :star: the repo
 
@@ -43,7 +39,7 @@ All the features listed below can be performed at the runtime.
 
 ```yml
 dependencies:
-  flutter_shortcuts: <latest version>
+  flutter_shortcuts_new: <latest version>
 ```
 
 Run pub get and get packages.
@@ -338,11 +334,11 @@ Describe the use-case.
   in the future.
   
 ## Stargazers
-[![Stargazers repo roster for @DevsOnFlutter/flutter_shortcuts](https://reporoster.com/stars/dark/DevsOnFlutter/flutter_shortcuts)](https://github.com/DevsOnFlutter/flutter_shortcuts/stargazers)
+[![Stargazers repo roster for @DevsOnFlutter/flutter_shortcuts_new](https://reporoster.com/stars/dark/DevsOnFlutter/flutter_shortcuts_new)](https://github.com/DevsOnFlutter/flutter_shortcuts_new/stargazers)
 
 ## Forkers
 
-[![Forkers repo roster for @DevsOnFlutter/flutter_shortcuts](https://reporoster.com/forks/dark/DevsOnFlutter/flutter_shortcuts)](https://github.com/DevsOnFlutter/flutter_shortcuts/network/members)
+[![Forkers repo roster for @DevsOnFlutter/flutter_shortcuts_new](https://reporoster.com/forks/dark/DevsOnFlutter/flutter_shortcuts_new)](https://github.com/DevsOnFlutter/flutter_shortcuts_new/network/members)
 
 ## Copyright & License
 
