@@ -1,9 +1,11 @@
 # Flutter Shortcuts New
 
+Originally forked from https://pub.dev/packages/flutter_shortcuts
+
 ## Compatibility
 
 ✅ &nbsp; Android </br>
-❌ &nbsp; iOS (active issue: [iOS support for quick actions](https://github.com/DevsOnFlutter/flutter_shortcuts_new/issues/1))
+❌ &nbsp; iOS (Open for contributions <3)
 
 ## Show some :heart: and :star: the repo
 

@@ -1,3 +1,9 @@
+## v2.0.0
+
+* Plugin forked to `flutter_shortcuts_new` due to original plugin was no longer maintained
+* Added namespace to become compatible with newer gradle versions
+* Use pushDynamicShortcut for addShortcut to dynamically add shortcuts even if already existing
+
 ## v1.4.0
 
 * **New Feature** Generate icon from JPEG images in memory (Uint8List) `ShortcutIconAsset.memoryAsset`
