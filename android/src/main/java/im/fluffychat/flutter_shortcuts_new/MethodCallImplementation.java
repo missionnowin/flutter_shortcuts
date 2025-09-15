@@ -492,12 +492,31 @@ public class MethodCallImplementation implements MethodChannel.MethodCallHandler
         try {
             byte[] bytes = Base64.getDecoder().decode(base64Jpeg);
             Bitmap image = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
+            Bitmap circularBitmap = getCircularBitmap(image);
 
-            return Icon.createWithBitmap(image);
+            return Icon.createWithBitmap(circularBitmap);
         } catch (Exception e) {
             e.printStackTrace();
             return null;
         }
+    }
+
+    private Bitmap getCircularBitmap(Bitmap bitmap) {
+        Bitmap output = Bitmap.createBitmap(bitmap.getWidth(), bitmap.getHeight(), Bitmap.Config.ARGB_8888);
+        Canvas canvas = new Canvas(output);
+        Paint paint = new Paint();
+        paint.setAntiAlias(true);
+        
+        Rect rect = new Rect(0, 0, bitmap.getWidth(), bitmap.getHeight());
+        RectF rectF = new RectF(rect);
+
+        canvas.drawARGB(0, 0, 0, 0);
+        canvas.drawOval(rectF, paint);
+
+        paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.SRC_IN));
+        canvas.drawBitmap(bitmap, rect, rect, paint);
+
+        return output;
     }
 
     private int loadResourceId(Context context, String icon) {
