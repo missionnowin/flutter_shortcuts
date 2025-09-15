@@ -493,7 +493,7 @@ public class MethodCallImplementation implements MethodChannel.MethodCallHandler
             byte[] bytes = Base64.getDecoder().decode(base64Jpeg);
             Bitmap image = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
 
-            return Icon.createWithAdaptiveBitmap(image);
+            return Icon.createWithBitmap(image);
         } catch (Exception e) {
             e.printStackTrace();
             return null;
